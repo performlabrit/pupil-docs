@@ -6,7 +6,7 @@ page_weight = 4
 
 ## Fixation Detector
 
-> I-DT identifies fixations as groups of consecutive points within a particular dispersion, or maximum separation. Because fixations typically have a duration of at least 100 ms, dispersion-based identification techniques often incorporate a minimum duration threshold of 100-200 ms to help alleviate equipment variability.
+> I-DT identifies fixations as groups of consecutive points within a particular dispersion, or maximum separation. Because fixations typically have a duration of at least 100 ms, dispersion-based identification techniques often incorporate a minimum duration threshold of 100-200 ms to help alleviate equipment variability.  Note that this algorithm does not account for head movements.  As a result, it is unable to detect periods of high acuity vision of a stationary object through counter rotations of the eye and head (vestibulo-ocular reflex), or high acuity vision of a moving object through visual pursuit.
 
 In [`[1]`](http://www.gruberpeplab.com/teaching/psych231_fall2013/documents/231_SalvucciGoldberg2000.pdf), Salvucci and Goldberg define different categories of fixation detectors. One of them describes dispersion-based algorithms:
 
